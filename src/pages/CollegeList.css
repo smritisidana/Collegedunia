@@ -1,0 +1,32 @@
+.collegeList {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 1376px;
+  transition: all 0.3s ease-in-out;
+}
+.collegeListTitle {
+  height: 18px;
+  line-height: 0.97;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  padding: 36px 16px 0px 16px;
+}
+.collegeListItems {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 640px) {
+  .collegeListTitle {
+    padding: 0px 16px 0px 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .collegeListTitle {
+    padding: 36px 16px 16px 24px;
+  }
+}
